@@ -1,0 +1,309 @@
+*{
+    font-family: 'Concert One', cursive;
+    margin: 0;
+    padding:0
+}
+.pagina{
+    height: 800px;
+    width: 1400px;
+
+}
+            /*NAVEGADOR*/
+
+.navegador{
+    background-color: rgb(20, 20, 20);
+    height: 80px;
+    width: 1400px;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.navegador-title{
+    margin-left: 150px;
+}
+
+.boton{
+    background-color: rgb(42, 173, 173);
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: 100;
+    font-size:larger;
+    display: flex;
+    position: relative;
+    left: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.navegador-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navegador-links li{
+    margin-right: 0px;
+    margin-left: 50px;
+}
+.navegador-links li a{
+    
+    text-decoration: none;
+    color: white; 
+}
+    /*NAVEGADOR*/
+
+    .cuerpo{
+        height: auto;
+        width: auto;
+        
+    }
+
+    /*TARJETA USUARIO*/
+.tarjeta{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    background-color: white;
+    border: 1px rgb(187, 177, 177) solid;
+}
+
+.header{
+    width: 500px;
+    height:100px;
+    background-color: rgb(54, 153, 153);
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: -40px;
+    justify-items:center;
+    justify-content: center;
+}
+
+.usuario{
+height: 80px;
+width: 80px;
+position: relative;
+bottom: 10px;
+left: 10px;
+border-radius: 60px;
+border: 1px solid grey;
+background-color: aliceblue;
+padding: 3px;
+webkit-box-shadow: 5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+moz-box-shadow:    5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+}
+
+.map{
+    height: 20px;
+}
+
+.engranaje{
+    height: 20px;
+}
+/*TARJETA USUARIO END*/
+
+/*TARJETA EDUCACION USUARIO*/
+
+.tarjeta-educacion{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    background-color: white;
+    border: 1px rgb(187, 177, 177) solid;
+    margin-top: 50px;
+    
+
+}
+
+.header-education{
+    width: 500px;
+    height:50px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.title{
+    margin-left: 10px;
+}
+
+.body-education{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.h3{
+    color: gray;
+    padding-top: 10px;
+}
+/*TARJETA EDUCACION USUARIO END*/
+
+/*TARJETA SOLICITUDES*/
+
+.tarjeta-solicitudes{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 760px;
+    bottom:  584px;
+    background-color: white;
+    border: 1px rgb(187, 177, 177) solid;
+    margin-top: 50px;
+}
+
+
+.header-solicitudes{
+    width: 300px;
+    height:50px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.items-header{
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    
+    
+}
+
+.items-header li{
+    margin-left: 20px;
+    
+}
+.number{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+    padding: 2px;
+}
+
+.usser-solicitudes, .acept-solicitudes, .close-solicitudes{
+    height: 30px;
+    
+}
+
+.usser-solicitudes{
+    border: 1px solid gray;
+    border-radius: 60px;
+    background-color: aliceblue;
+    padding: 2px;
+    webkit-box-shadow: 5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+    moz-box-shadow:    5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.names-solicitudes, .names-solicitudes2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+/*TARJETA SOLICITUDES END*/
+
+/*TARJETA CONECCIONES*/
+
+.tarjeta-conecciones{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 760px;
+    bottom:  584px;
+    background-color: white;
+    border: 1px rgb(187, 177, 177) solid;
+    margin-top: 50px;
+}
+
+
+.header-conecciones{
+    width: 300px;
+    height:50px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.end-conecciones{
+    width: 280px;
+    height: 36px;
+    background-color: white;
+    border: 1px grey solid;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.items-header-conecciones{
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    
+    
+}
+
+.items-header-conecciones li{
+    margin-left: 20px;
+    
+}
+#number-conecciones, #number{
+        border: 1px solid black;
+        border-radius:50%;
+        background-color: gray;
+        padding: 5px;
+}
+
+.usser-conecciones, .usser-conecciones2, .names-conecciones3, .names-conecciones4{
+    height: 30px;
+    
+}
+
+.usser-conecciones{
+    border: 1px solid gray;
+    border-radius: 60px;
+    background-color: aliceblue;
+    padding: 2px;
+    webkit-box-shadow: 5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+    moz-box-shadow:    5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         5px 5px 9px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.names-conecciones, .names-conecciones2, .names-conecciones3, .names-conecciones4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    justify-items: flex-end;
+    padding: 10px;
+}
+/*TARJETA CONECCIONES END*/
+

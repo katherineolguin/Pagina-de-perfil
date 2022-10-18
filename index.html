@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Perfil</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+<!--FONT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+<!--FONT END-->
+
+</head>
+<body>
+
+    <div class="pagina">                   <!--PAGINA-->
+
+                  <!--NAVEGADOR-->
+    <div class="navegador">
+
+        <h1 class="navegador-title">Perfil</h1>
+
+        <ul class="navegador-links">
+
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">My Profile</a></li>
+            <li> <a href="#">Find Connections</a></li>
+            <li> <button class="boton">Sing Out</button></li>
+        </ul>
+    </div>
+
+
+  
+                 <!--NAVEGADOR END-->
+
+  <div class="cuerpo">                        <!--doby-->
+
+                 <!--TARJETA USUARIO-->
+
+                 <div class="tarjeta">
+
+                    <div class="header"></div>
+
+                    <div class="body">
+
+                        <img class="usuario" src="./images/jane-m.jpg" alt="user">
+                        <h1 class="nameusser">Marie Curie</h1>
+                        <h2 class="location">
+
+                            <img class="map" src="./icon-images/map-marker.png" alt="map" >
+                            Londres
+                        </h2>
+
+                        <p>Developer| Engineer | Problem Solver Master of shadows 
+                            and the Internet!</p>
+
+                        <a href="#">
+
+                        <h3 class="engranaje">
+                            <img   class="engranaje" src="./icon-images/gear.png" alt="engranaje">
+                           <a href="#" onclick="changeName(this)"> edit profile</a>
+                        </h3>
+                     </a> 
+                        
+                    </div>
+                </div>
+
+                  <!--TARJETA USUARIO-->
+
+                 <!--TARJETA EDUCACION USUARIO-->
+
+                 <div class="tarjeta-educacion">
+
+                    <div class="header-education">
+                        <text class="title"> Education </text>
+                     </div>
+
+                    <div class="body-education">
+                        <h2 class="title-education">Coding Dojo- Full Stack Bootcamp</h2>
+                        <h3 class="h3">Dec 2019-Mar 2020</h3>
+                        <p>Triple black belt in pyton,MERN, and C#</p>
+
+                    </div>
+                 </div>
+
+                 <!--TARJETA EDUCACION USUARIO END-->
+
+                 <!--TARJETA solicitudes-->
+
+                 <div class="tarjeta-solicitudes">
+
+                    <div class="header-solicitudes">
+                        <ul class=" items-header">
+                            <li id="number">2</li>
+                            <li>Connection Requests</li>
+                        </ul>
+                    </div>
+
+                    <div class="body-solicitudes">
+
+                        <h3 class="names-solicitudes">
+
+                        <img class="usser-solicitudes"  src="./images/todd-s.jpg" alt="image-perfil">
+                        Todd E
+                        <img  class="acept-solicitudes" src="./icon-images/accept-circle.png" alt="acept">
+                        <img onclick="eliminarUsuario(this)"   class="close-solicitudes" src="./icon-images/close-circle.png" alt="close">
+                    </h3>
+
+                        <h3 class="names-solicitudes2">
+                            <img class="usser-solicitudes" src="./images/phil-s.jpg" alt="image-perfil">
+                            Phill K
+                            <img  class="acept-solicitudes" src="./icon-images/accept-circle.png" alt="acept">
+                        <img class="close-solicitudes" src="./icon-images/close-circle.png" alt="close">
+                        </h3>
+                    
+                    </div>
+                 </div>
+                    <!--TARJETA solicitudes end-->
+
+                 <!--TARJETA CONECCIONES-->
+
+
+                 <div class="tarjeta-conecciones">
+
+                    <div class="header-conecciones">
+                        <ul class=" items-header-conecciones">
+
+                            <li id="number-conecciones">500+</li>
+                            <li>Your conections</li>
+                        </ul>
+                    </div>
+
+                    <div class="body-conecciones">
+
+                        <h3 class="names-conecciones">
+
+                        <img onclick="addContcto(this)" class="usser-conecciones"  src="./images/adrien-s.jpg" alt="image-perfil">
+                        Adrien D
+                        </h3>
+
+
+                        <h3 class="names-conecciones2">
+                            <img class="usser-conecciones" src="./images/anne-s.jpg" alt="image-perfil">
+                            Anne J
+                        </h3>
+                    
+                        <h3 class="names-conecciones3">
+                            <img class="usser-conecciones" src="./images/alayne-s.jpg" alt="image-perfil">
+                            Alayne T
+                        </h3>
+
+                        <h3 class="names-conecciones4">
+                            <img class="usser-conecciones" src="./images/arry-s.jpg" alt="image-perfil">
+                            Arry Y
+                        </h3>
+                    </div>
+
+
+                    <div class="end-conecciones">
+                        <a href="#">View More</a>
+                    </div>
+                 </div>
+                <!--TARJETA CONECCIONES end-->
+
+
+         </div>   <!--body-->
+            </div>  <!--PAGINA END-->
+        
+
+            <script src="./js/script.js" ></script>
+
+</body>
+</html>
